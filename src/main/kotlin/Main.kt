@@ -1,4 +1,4 @@
-fun main(){
+fun main() {
 //    var name = "Eslam Medhat"
 //    var age = 26
 //    var newAge:Long = age.toLong()
@@ -17,8 +17,6 @@ fun main(){
 
 //    var namesOfWinners = arrayOf("Laila","Said","Boutheina","Amr","Eslam")
 //    println(namesOfWinners[1])
-
-
 
 
 //
@@ -59,7 +57,6 @@ fun main(){
 //    println(x) // 6
 
 
-
     //Logical Operators
 //    var x = 8
 //    var y = 7
@@ -88,7 +85,6 @@ fun main(){
 //    println("Ok $name, your age is $age")
 
 
-
 //   var season = 2
 //    when(season){
 //
@@ -99,26 +95,106 @@ fun main(){
 //
 //    }
 
-
-    println("Welcome to our college website")
-    println("Please enter your degree to get your result")
-    var degree:Int
-    degree = Integer.valueOf(readLine().toString())
-    when (degree){
-        in 0..49 -> println("You Failed")
-        in 50..70 -> println("You Got C")
-        in 71..80 -> println("You Got B+")
-        in 81..90 -> println("You A")
-        in 91..100 -> println("You A+")
-        else -> println("NOT VALID DEGREE")
-
-    }
-
-
+//
+//    println("Welcome to our college website")
+//    println("Please enter your degree to get your result")
+//    var degree:Int
+//    degree = Integer.valueOf(readLine().toString())
+//    when (degree){
+//        in 0..49 -> println("You Failed")
+//        in 50..70 -> println("You Got C")
+//        in 71..80 -> println("You Got B+")
+//        in 81..90 -> println("You A")
+//        in 91..100 -> println("You A+")
+//        else -> println("NOT VALID DEGREE")
+//
+//    }
 
 
+    //Initilaizing
+    //Condition
+    //Counter
+    //Statement
+
+//    for (int i = 0; i<=10; i++){
+//        //statement
+//    }
+
+//    var names = arrayOf("Eslam","Boutheina","Said","Ahmed")
+//    for (listOfNames in names){
+//        println(listOfNames)
+//    }
+
+
+//    for (i in 10 downTo 1 step 2){
+//        println("Hello World : $i")
+//    }
+
+
+    //Initliazing
+    //Condition
+    //statement
+    //counter
+
+
+//    var i = 1;
+//    while (i <=10){
+//        println("Hello World + $i")
+//        i++
+//    }
+
+//    var i = 1
+//    do {
+//        println("Hello World + $i")
+//        i++
+//    }while (i<0)
+
+
+//
+//    for (i in 1..5){
+//        if (i == 3){
+//            break
+//            continue
+//        }
+//        println(i)
+//    }
+
+
+//    var result = sum(5, 6)
+//    println(result)
+
+
+//    val max = Math.min(5,10)
+//    println(max)
 
 
 
+//    try {
+//        val data = 20/2
+//        println(data)
+//    }
+//    catch (exception : Exception){
+//        println("You cannot divide by zero")
+//        println(exception)
+//    }
+//    finally {
+//        println("This finally block will always executed")
+//    }
+
+
+//NON NULL INSERTED
+//    var name:String? = "Eslam Medhat"
+//    println(name!!.length)
+//
+
+
+
+
+    var atm = ATM()
+    atm.getCardInformation()
 
 }
+
+//fun sum(number1: Int, number2: Int): Int {
+//    return number1 + number2
+//}
